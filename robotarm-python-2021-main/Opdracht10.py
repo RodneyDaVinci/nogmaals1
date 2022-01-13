@@ -9,12 +9,12 @@ for i in range(5):
 
     for a in range(9-(2*i)):
         robotArm.moveRight()
-
+    print(a)
     robotArm.drop()
 
-    for b in range(9-(2*i)-1):
+    for b in range(8-(2*i)):
         robotArm.moveLeft()
-
+    
 
 
 # Na jouw code wachten tot het sluiten van de window:
